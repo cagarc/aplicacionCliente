@@ -29,4 +29,3 @@ jobs:
           context: .
           tag: latest
           push: true
-
