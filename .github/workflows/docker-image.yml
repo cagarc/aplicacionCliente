@@ -25,4 +25,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/web:${{ github.sha }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/web:${{ github.run_number }} 
+
